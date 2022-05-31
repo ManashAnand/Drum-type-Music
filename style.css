@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #mainBox {
+    /* The image used */
+    background-image: url("Crowd.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    color: #2f2f;
+    align-items: center;
+}
+  
+.same{
+    font-size: 2rem;
+    padding: 1rem;
+    border: 3px solid white;
+    background-color: transparent;
+
+}
